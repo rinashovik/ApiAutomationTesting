@@ -22,7 +22,8 @@ public class APITests {
         System.out.println("Header : " + response.getHeaders().exist());
         System.out.println("Header : " + response.getHeaders().size());
         System.out.println("Time Taken : " + response.time());
-        System.out.println("Time Taken : " + response.time());
+
+        System.out.println("All Users: " + response.prettyPrint());
 
         /*verification
 
@@ -46,6 +47,8 @@ public class APITests {
 
 
         }
+
+
 
 
     }
